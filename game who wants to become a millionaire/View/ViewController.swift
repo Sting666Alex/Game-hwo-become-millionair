@@ -9,6 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func NewGame(_ sender: Any) {
+        print(1)
+        performSegue(withIdentifier: "to_gameVC", sender: nil)
+    }
+    
+    
+    @IBAction func Result(_ sender: Any) {
+        print(2)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
