@@ -18,8 +18,8 @@ class ResultTableViewCell: UITableViewCell {
     }
 
     override func prepareForReuse() {
-        DateLable.text = ""
-        ResultLable.text = ""
+        DateLable.text = "1"
+        ResultLable.text = "1"
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
